@@ -1,0 +1,197 @@
+.ace-syntactik .ace_gutter {
+  background: #ebebeb;
+  color: #333;
+  overflow : hidden;
+}
+
+.ace-syntactik .ace_print-margin {
+  width: 1px;
+  background: #e8e8e8;
+}
+
+.ace-syntactik .ace_element .ace_identifier {
+  color: #ab3339;
+}
+
+.ace-syntactik .ace_identifier { /*element*/
+  color: #ab3339;
+}
+
+.ace-syntactik .ace_document {
+  color: #0000FF;
+}
+
+.ace-syntactik .ace_alias {
+  color: #009696;
+}
+
+.ace-syntactik .ace_parameter {
+  color: #00C8C8;
+}
+
+.ace-syntactik .ace_attribute {
+  color: #FF0000;
+}
+
+.ace-syntactik .ace_namespace {
+  color: #00C800;
+}
+
+.ace-syntactik .ace_attr_text {
+  color: #F57D00;
+}
+
+.ace-syntactik .ace_text {
+  color: #5D0095;
+}
+
+.ace-syntactik .ace_literal {
+  color: ##ef00ef;
+}
+
+
+
+.ace-syntactik {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.ace-syntactik .ace_cursor {
+  color: black;
+}
+
+.ace-syntactik .ace_invisible {
+  color: rgb(191, 191, 191);
+}
+
+.ace-syntactik .ace_constant.ace_buildin {
+  color: rgb(88, 72, 246);
+}
+
+.ace-syntactik .ace_constant.ace_language {
+  color: rgb(88, 92, 246);
+}
+
+.ace-syntactik .ace_constant.ace_library {
+  color: rgb(6, 150, 14);
+}
+
+.ace-syntactik .ace_invalid {
+  background-color: rgb(153, 0, 0);
+  color: white;
+}
+
+.ace-syntactik .ace_fold {
+}
+
+.ace-syntactik .ace_support.ace_function {
+  color: rgb(60, 76, 114);
+}
+
+.ace-syntactik .ace_support.ace_constant {
+  color: rgb(6, 150, 14);
+}
+
+.ace-syntactik .ace_support.ace_type,
+.ace-syntactik .ace_support.ace_class
+.ace-syntactik .ace_support.ace_other {
+  color: rgb(109, 121, 222);
+}
+
+.ace-syntactik .ace_variable.ace_parameter {
+  font-style:italic;
+  color:#FD971F;
+}
+.ace-syntactik .ace_keyword.ace_operator {
+  color: rgb(104, 118, 135);
+}
+
+.ace-syntactik .ace_comment {
+  color: #c0c0c0;
+}
+
+.ace-syntactik .ace_comment.ace_doc {
+  color: #236e24;
+}
+
+.ace-syntactik .ace_comment.ace_doc.ace_tag {
+  color: #236e24;
+}
+
+.ace-syntactik .ace_constant.ace_numeric {
+  color: rgb(0, 0, 205);
+}
+
+.ace-syntactik .ace_variable {
+  color: rgb(49, 132, 149);
+}
+
+.ace-syntactik .ace_xml-pe {
+  color: rgb(104, 104, 91);
+}
+
+.ace-syntactik .ace_entity.ace_name.ace_function {
+  color: #0000A2;
+}
+
+
+.ace-syntactik .ace_heading {
+  color: rgb(12, 7, 255);
+}
+
+.ace-syntactik .ace_list {
+  color:rgb(185, 6, 144);
+}
+
+.ace-syntactik .ace_marker-layer .ace_selection {
+  background: rgb(181, 213, 255);
+}
+
+.ace-syntactik .ace_marker-layer .ace_step {
+  background: rgb(252, 255, 0);
+}
+
+.ace-syntactik .ace_marker-layer .ace_stack {
+  background: rgb(164, 229, 101);
+}
+
+.ace-syntactik .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgb(192, 192, 192);
+}
+
+.ace-syntactik .ace_marker-layer .ace_active-line {
+  background: rgba(0, 0, 0, 0.07);
+}
+
+.ace-syntactik .ace_gutter-active-line {
+    background-color : #dcdcdc;
+}
+
+.ace-syntactik .ace_marker-layer .ace_selected-word {
+  background: rgb(250, 250, 255);
+  border: 1px solid rgb(200, 200, 250);
+}
+
+.ace-syntactik .ace_storage,
+.ace-syntactik .ace_keyword,
+.ace-syntactik .ace_meta.ace_tag {
+  color: rgb(147, 15, 128);
+}
+
+
+.ace-syntactik .ace_string.ace_regex {
+  color: #F57D00;
+}
+
+.ace-syntactik .ace_string {
+  color: #5D0095;
+}
+
+.ace-syntactik .ace_entity.ace_other.ace_attribute-name {
+  color: #994409;
+}
+
+.ace-syntactik .ace_indent-guide {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;
+}
