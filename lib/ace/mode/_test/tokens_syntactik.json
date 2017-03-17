@@ -1,0 +1,278 @@
+[[
+   "mlComment",
+  ["comment","\"\"\""]
+],[
+   "mlComment",
+  ["comment","This is multiline comment"]
+],[
+   "start",
+  ["comment","\"\"\""]
+],[
+   "start",
+  ["keyword","!document"],
+  ["delimiter.operator",":"]
+],[
+   "start",
+  ["identifier","    root"],
+  ["delimiter.operator",":"]
+],[
+   ["start",1],
+  ["identifier","        wsa"],
+  ["paren.lparen",":("],
+  ["identifier"," "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["identifier","            el1 "],
+  ["delimiter.operator","= "],
+  ["string","text1"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","el2 = text3"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","        "],
+  ["mlValue.string",")"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","        "],
+  ["mlValue.string","pair assignment:"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","bill-to := $Address = main ''' Alias is used instead of real value"]
+],[
+   ["#tmp","mlValue","start",1]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","        "],
+  ["mlValue.string","error handling:"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el1: =) text1"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el2: =, text2"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el3 = el4 = el5"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","        "],
+  ["mlValue.string","values:"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el1 = value ''' this is one line cpmment"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el2 = \"double quoted value\""]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el3 = 'single quoted value'"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el4 == \"free open\" string"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el5 = multiline"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","openstring"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el6 = "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","multiline"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","openstring"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el7 == multiline"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","free"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","openstring"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el8 == "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","multiline"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","free"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","openstring"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","        "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","el1 := $al1 = txt1"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","address = \"multiline"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","double quoted "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","string\""]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","address = 'multiline"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","single quoted "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","string'"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","        "],
+  ["mlValue.string","quoted names:"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","'receipt' = Oz-Ware Purchase Invoice"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","    "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string","\"date\" = 2007-08-06"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","        "],
+  ["mlValue.string","array::    "]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string",":"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","part_no = A4786"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","descrip == Water Bucket (Filled)"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","price = 1.47"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","quantity = 4"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","            "],
+  ["mlValue.string",":"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","part_no = E1628"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","descrip == High Heeled \"Ruby\" Slippers"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","size = 8"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","price = 100.27"]
+],[
+   ["#tmp","mlValue","start",1],
+  ["mlValue.indent","                "],
+  ["mlValue.string","quantity = 1            "]
+],[
+   "start",
+  ["keyword","!$Address"],
+  ["delimiter.operator",":"]
+],[
+   ["mlValue",4],
+  ["identifier","    street "],
+  ["delimiter.operator","== "],
+  ["freeValue.string","123 Tornado Alley"]
+],[
+   ["mlValue",4],
+  ["mlValue.indent","        "],
+  ["mlValue.string","Suite 16"]
+],[
+   ["mlValue",4]
+],[
+   ["mlValue",4],
+  ["mlValue.indent","    "],
+  ["identifier","city "],
+  ["delimiter.operator","= "],
+  ["string","East Centerville"]
+],[
+   ["mlValue",4],
+  ["mlValue.indent","    "],
+  ["identifier","state "],
+  ["delimiter.operator","= "],
+  ["string","KS"]
+],[
+   ["mlValue",4]
+],[
+   ["mlValue",4]
+],[
+   ["mlValue",4]
+]]

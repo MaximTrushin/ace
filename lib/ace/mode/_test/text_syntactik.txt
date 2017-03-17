@@ -1,0 +1,72 @@
+"""
+This is multiline comment
+"""
+!document:
+    root:
+        wsa:( 
+            el1 = text1
+                el2 = text3
+        )
+        pair assignment:
+            bill-to := $Address = main ''' Alias is used instead of real value
+
+        error handling:
+            el1: =) text1
+            
+            el2: =, text2
+            el3 = el4 = el5
+            
+        values:
+            el1 = value ''' this is one line cpmment
+            el2 = "double quoted value"
+            el3 = 'single quoted value'
+            el4 == "free open" string
+            
+            el5 = multiline
+                openstring
+            
+            el6 = 
+                multiline
+                openstring
+            
+            el7 == multiline
+                free
+                openstring
+            el8 == 
+                multiline
+                free
+                openstring
+        
+            el1 := $al1 = txt1
+            
+            address = "multiline
+                double quoted 
+                string"
+            
+            address = 'multiline
+                single quoted 
+                string'
+        quoted names:
+            'receipt' = Oz-Ware Purchase Invoice
+    
+            "date" = 2007-08-06
+        array::    
+            :
+                part_no = A4786
+                descrip == Water Bucket (Filled)
+                price = 1.47
+                quantity = 4
+            :
+                part_no = E1628
+                descrip == High Heeled "Ruby" Slippers
+                size = 8
+                price = 100.27
+                quantity = 1            
+!$Address:
+    street == 123 Tornado Alley
+        Suite 16
+
+    city = East Centerville
+    state = KS
+
+
